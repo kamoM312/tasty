@@ -82,15 +82,17 @@
 		<!-- </div> -->
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+	<!-- Changed background image -->
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/menuBackground.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<h1>Reserved a Table Today!</h1>
-							<h2>Brought to you by <a href="http://acrosoft/" target="_blank">acrosoft</a></h2>
+							<!-- Changed h1 element text -->
+							<h1>Make a Reservation</h1>
+							<!-- Removed h2 element -->
 						</div>
 					</div>
 				</div>
@@ -106,27 +108,44 @@
 					<h2>Reservation</h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis. Ad magni perspiciatis, voluptatum repellat.</p>
+							<!-- Changed p element text and included link to contact.html -->
+							<p>Make a reservation for up to 13 people. Should you need to book for a larger group, you can <a href="contact.html">contact us</a> directly through any of our direct communication channels.
+							<br>
+							<br>
+							Same day reservations must be made by 17h00.
+							</p>
 						</div>
 					</div>
 				</div>
 				
 				<div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6">
-					<form action="#" id="form-wrap">
+					<!-- Set form action and method attributes -->
+					<form action="mailto:kamogelomalema1@gmail.com" method="post" id="form-wrap">
 						<div class="row form-group">
 							<div class="col-md-12">
+								<!-- Adding name attribute to "name" input field -->
 								<label for="name">Your Name</label>
-								<input type="text" class="form-control" id="name">
+								<input type="text" class="form-control" id="name" name="name">
 							</div>
 						</div>
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label for="many">How Many People</label>
 								<select name="many" id="many" class="form-control custom_select">
-									<option value="#">1</option>
-									<option value="#">2</option>
-									<option value="#">3</option>
-									<option value="#">4+</option>
+									<!-- Added more options and setting option values -->
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+									<option value="13">13</option>
 								</select>
 							</div>
 						</div>
@@ -157,18 +176,22 @@
 					<h2>Testimony</h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis.</p>
+							<!-- Changed paragraph text -->
+							<p>Why our customers love us...</p>
 						</div>
 					</div>
 				</div>
 
 				<div class="col-md-5 animate-box img-to-responsive animate-box" data-animate-effect="fadeInLeft">
-						<img src="images/person_1.jpg" alt="">
+					<!-- Changed testimonial image -->
+						<img src="images/testimony2.jpg" alt="customer in restaurant">
 				</div>
 				<div class="col-md-7 animate-box" data-animate-effect="fadeInRight">
 					<blockquote>
-						<p> &ldquo; Quantum ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam. &rdquo;</p>
-						<p class="author"><cite>&mdash; Jane Smith</cite></p>
+						<!-- Changed testimonial text -->
+						<p> &ldquo; Great food at reasonable prices. Great service and awesome owners! &rdquo;</p>
+						<!-- Changed author name -->
+						<p class="author"><cite>&mdash; Caleb Jacobs</cite></p>
 					</blockquote>
 				</div>
 			</div>
@@ -183,7 +206,11 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Book a Table</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae enim quae vitae cupiditate, sequi quam ea id dolor reiciendis consectetur repudiandae. Rem quam, repellendus veniam ipsa fuga maxime odio? Eaque!</p>
+					<!-- Changed paragraph text -->
+					<p>Make a reservation for up to 13 people. Should you need to book for a larger group, you can <a href="contact.html">contact us</a> through any of our direct communication channels.
+					<br>
+					<br>
+					Same day reservations must be made by 17h00.</p>
 					<p><a href="reservation.html" class="btn btn-primary btn-outline">Book Now</a></p>
 				</div>
 			</div>
@@ -195,36 +222,32 @@
 			<div class="row row-pb-md">
 				<div class="col-md-4 fh5co-widget">
 					<h4>Tasty</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<!-- Changed paragraph text -->
+					<p>We pride ourselves on customer excellence and exquisite dining.</p>
 				</div>
 				<div class="col-md-2 col-md-push-1 fh5co-widget">
 					<h4>Links</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Menu</a></li>
-						<li><a href="#">Gallery</a></li>
+						<!-- Changed links in links section -->
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="menu.html">Menu</a></li>
+						<li class="has-dropdown"><a href="gallery.html">Gallery</a></li>
+						<li><a href="reservation.html">Reservation</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 
-				<div class="col-md-2 col-md-push-1 fh5co-widget">
-					<h4>Categories</h4>
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Landing Page</a></li>
-						<li><a href="#">Real Estate</a></li>
-						<li><a href="#">Personal</a></li>
-						<li><a href="#">Business</a></li>
-						<li><a href="#">e-Commerce</a></li>
-					</ul>
-				</div>
+				<!-- Removed categories section -->
 
 				<div class="col-md-4 col-md-push-1 fh5co-widget">
 					<h4>Contact Information</h4>
 					<ul class="fh5co-footer-links">
 						<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-						<li><a href="http://https://acrosoft">acrosoft</a></li>
+						<!-- Changing phone number -->
+						<li><a href="tel://+27693585427">+27693585427</a></li>
+						<!-- Changing email address and removing acrosoft link -->
+						<li><a href="mailto:kamogelomalema1@gmail.com">kamogelomalema1@gmail.com</a></li>
 					</ul>
 				</div>
 
